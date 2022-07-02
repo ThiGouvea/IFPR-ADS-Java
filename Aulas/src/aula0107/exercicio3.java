@@ -14,7 +14,7 @@ public class exercicio3 {
 
         System.out.println("Digite o valor do segundo item da compra:");
         double segundoItem = Ler.nextDouble();
-        
+
         System.out.println("Digite o valor do terceiro item da compra:");
         double terceiroItem = Ler.nextDouble();
 

@@ -1,0 +1,34 @@
+1. Crie um diálogo entre duas pessoas com até 15 linhas de programação. Utilize o comando “System.out.println(...)”.
+
+2. Crie um programa que desenhe uma casa. Utilize o comando System.out.println(...) para mostrar na tela cada parte do desenho.
+
+3. Elabore um algoritmo para receber um número e mostrar o sucessor e antecessor.
+
+4. Elabore um algoritmo para ler 2 números e mostrar a soma desses números.
+
+5. Elabore um algoritmo que receba 3 números: A, B e C. Calcule e mostre o valor de X de acordo com a seguinte expressão: X = A + B – C.
+6. Escreva um algoritmo que leia um número e imprima o seu quadrado (número * número).
+7. Crie um algoritmo que calcule a área de um retângulo. O algoritmo deve receber o tamanho da base e altura.
+
+8. Crie um programa que receba o nome de uma pessoa, sua idade e o valor total gasto em uma compra ao supermercado. Mostre como resultado a mensagem:Ex.
+<nome da pessoa>, você tem <idade> anos e gastou <valor gasto> reais no supermercado.
+Mark Zuckerberg, você tem 60 anos e gastou 300 reais no supermercado.
+
+9. Crie um algoritmo para calcular o IMC de uma pessoa. IMC = peso/altura²
+
+10. Crie um algoritmo para calcular a área de um círculo. Área = 3,1416 * raio * raio
+
+11. Faça um algoritmo que leia o salário bruto e o valor de desconto de um funcionário. Calcule e mostre o salário líquido, sabendo que:Salário líquido = Salário bruto – Valor de desconto.
+
+12. O Shopping China está vendendo seus produtos em 6 (seis) vezes sem juros no cartão de crédito. Faça um algoritmo que receba o valor de uma compra e mostre o valor das prestações.
+
+
+13. Faça um algoritmo que receba 2 notas de um aluno. O algoritmo deve calcular a média, em que MEDIA = (NOTA1 + NOTA2) / 2, e mostrar uma mensagem com a média do aluno.
+
+14. Faça um algoritmo que receba 4 valores de uma compra em um supermercado. Calcule e mostre o valor total gasto.
+
+
+
+15. Faça um algoritmo que receba o nome e 4 notas de um aluno. O algoritmo deve calcular a média, em que MEDIA = (NOTA1 + NOTA2 + NOTA3 + NOTA4) / 4, e mostrar uma mensagem com o nome e a média do aluno.Ex.
+<nome do aluno>, sua média é <média>
+Pedro, sua média é 8,5
