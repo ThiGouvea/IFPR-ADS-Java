@@ -19,12 +19,6 @@ public class exercicio20 {
         int tentativas = 0;
         double valor_saque;
         double valor_restante;
-        int notas_100 = 0;
-        int notas_50 = 0;
-        int notas_20 = 0;
-        int notas_10 = 0;
-        int notas_5 = 0;
-        int notas_2 = 0;
 
         while (true) {
             System.out.println("Digite o nome de usuario: ");
@@ -32,6 +26,12 @@ public class exercicio20 {
             System.out.println("Digite a senha: ");
             senha_digitada = Ler.next();
             if (usuario.equals(login) && senha_digitada.equals(senha)) {
+                int notas_100 = 0;
+                int notas_50 = 0;
+                int notas_20 = 0;
+                int notas_10 = 0;
+                int notas_5 = 0;
+                int notas_2 = 0;
                 System.out.println("Logado com sucesso");
                 System.out.println("Digite o valor que deseja sacar:");
                 System.out.println("Notas disponiveis (100, 50, 20, 10, 5 e 2)");
