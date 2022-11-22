@@ -14,7 +14,7 @@ public class exercicio20 {
         Scanner Ler = new Scanner(System.in);
         String login = "java";
         String senha = "123";
-        String usuario = "";
+        String login_digitado = "";
         String senha_digitada = "";
         int tentativas = 0;
         double valor_saque;
@@ -22,10 +22,10 @@ public class exercicio20 {
 
         while (true) {
             System.out.println("Digite o nome de usuario: ");
-            usuario = Ler.next();
+            login_digitado = Ler.next();
             System.out.println("Digite a senha: ");
             senha_digitada = Ler.next();
-            if (usuario.equals(login) && senha_digitada.equals(senha)) {
+            if (login_digitado.equals(login) && senha_digitada.equals(senha)) {
                 int notas_100 = 0;
                 int notas_50 = 0;
                 int notas_20 = 0;
