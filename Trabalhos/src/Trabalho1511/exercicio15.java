@@ -13,7 +13,7 @@ public class exercicio15 {
         double numero;
         double somatoria = 0;
         double media;
-        double quantidade_digitados = 0;
+        int quantidade_digitados = 0;
         int positivos = 0;
         int negativos = 0;
         double porcentagem_positivos;
@@ -35,8 +35,8 @@ public class exercicio15 {
             }
         }
         media = somatoria / quantidade_digitados;
-        porcentagem_positivos = (quantidade_digitados / 100) * positivos;
-        porcentagem_negativos = (quantidade_digitados / 100) * negativos;
+        porcentagem_positivos = (positivos * 100) / quantidade_digitados;
+        porcentagem_negativos = (negativos * 100) / quantidade_digitados;
 
         System.out.println("A media é " + media);
         System.out.println("A quantidade de numeros digitados é " + quantidade_digitados);
