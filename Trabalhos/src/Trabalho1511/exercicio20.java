@@ -72,23 +72,23 @@ public class exercicio20 {
                     continue;
                 } else {
                     System.out.println("Saque realizado com sucesso:");
-                    System.out.println(notas_100 +" notas de R$ 100");
-                    System.out.println(notas_50 +" notas de R$ 50");
-                    System.out.println(notas_20 +" notas de R$ 20");
-                    System.out.println(notas_10 +" notas de R$ 10");
-                    System.out.println(notas_5 +" notas de R$ 5");
-                    System.out.println(notas_2 +" notas de R$ 2");
+                    System.out.println(notas_100 + " notas de R$ 100");
+                    System.out.println(notas_50 + " notas de R$ 50");
+                    System.out.println(notas_20 + " notas de R$ 20");
+                    System.out.println(notas_10 + " notas de R$ 10");
+                    System.out.println(notas_5 + " notas de R$ 5");
+                    System.out.println(notas_2 + " notas de R$ 2");
                 }
             } else {
                 tentativas++;
-                System.out.println("Senha ou login errado, digite novamente");
-                System.out.println("Numero de tentativas erradas " + tentativas + "/3");
                 if (tentativas >= 3) {
+                    System.out.println("Numero de tentativas erradas " + tentativas + "/3");
                     System.out.println("Muitas tentativas erradas, saida automatica do sistema");
                     break;
                 }
+                System.out.println("Senha ou login errado, digite novamente");
+                System.out.println("Numero de tentativas erradas " + tentativas + "/3");
             }
         }
-
     }
 }
