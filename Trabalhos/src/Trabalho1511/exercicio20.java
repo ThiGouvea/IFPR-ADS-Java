@@ -37,7 +37,7 @@ public class exercicio20 {
                 System.out.println("Notas disponiveis (100, 50, 20, 10, 5 e 2)");
                 System.out.print("Valor: R$ ");
                 valor_saque = Ler.nextDouble();
-                while (valor_saque > 1500 || valor_saque < 0) {
+                while (valor_saque > 1500 || valor_saque <= 0) {
                     System.out.println("Saque limitado á um valor maior que R$ 0 e menor que R$ 1500");
                     System.out.print("Valor: R$ ");
                     valor_saque = Ler.nextDouble();
@@ -72,12 +72,12 @@ public class exercicio20 {
                     continue;
                 } else {
                     System.out.println("Saque realizado com sucesso:");
-                    System.out.println(notas_100 + " notas de R$ 100");
-                    System.out.println(notas_50 + " notas de R$ 50");
-                    System.out.println(notas_20 + " notas de R$ 20");
-                    System.out.println(notas_10 + " notas de R$ 10");
-                    System.out.println(notas_5 + " notas de R$ 5");
-                    System.out.println(notas_2 + " notas de R$ 2");
+                    System.out.println(notas_100 + " nota(s) de R$ 100");
+                    System.out.println(notas_50 + " nota(s) de R$ 50");
+                    System.out.println(notas_20 + " nota(s) de R$ 20");
+                    System.out.println(notas_10 + " nota(s) de R$ 10");
+                    System.out.println(notas_5 + " nota(s) de R$ 5");
+                    System.out.println(notas_2 + " nota(s) de R$ 2");
                 }
             } else {
                 tentativas++;
